@@ -66,7 +66,7 @@ DATABASES = {
 	'PORT': '3306',
         'NAME': 'wedns',
 	'USER': 'root',
-	'PASSWORD': 'wecash1213',
+	'PASSWORD': 'we3',
     }
 }
 
