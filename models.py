@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 class dns_records(models.Model):
-	zone = models.CharField(max_length=15,default='wecash.net')
+	zone = models.CharField(max_length=15,default='wsh.net')
 	host = models.CharField(max_length=15,default='www')
 	type = models.CharField(max_length=5,default='A')
 	data = models.IPAddressField(default='192.168.240.23')
